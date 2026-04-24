@@ -1,0 +1,20 @@
+# ── Web ──────────────────────────────────────────────────────────────────────
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.2.2
+
+# ── Automatización de navegador ───────────────────────────────────────────────
+playwright==1.44.0
+
+# ── Variables de entorno ──────────────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── Serialización / almacenamiento ────────────────────────────────────────────
+# (stdlib: json, pathlib — sin dependencias externas)
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest==8.2.0
+pytest-cov==5.0.0
+
+# ── Calidad de código (opcional) ─────────────────────────────────────────────
+ruff==0.4.4
